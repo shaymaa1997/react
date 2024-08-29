@@ -37,7 +37,8 @@ let routers = createBrowserRouter([
         index: true,
         element: (
           <ProtectedRoute>
-            <Home />
+            <Register
+              />
           </ProtectedRoute>
         ),
       },
