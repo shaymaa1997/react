@@ -36,10 +36,9 @@ let routers = createBrowserRouter([
       {
         index: true,
         element: (
-          <ProtectedRoute>
+        
             <Register
               />
-          </ProtectedRoute>
         ),
       },
       {
